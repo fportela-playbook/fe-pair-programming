@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+.card {
+  border: 2px solid;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.card__amounts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__pregress {
+  text-align: left;
+}
