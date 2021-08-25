@@ -1,0 +1,37 @@
+.card{
+  
+  border: 2px solid #000000;
+  padding:20px;
+  margin:20px auto;
+  position:relative;
+}
+
+.goalname{
+  font-size:24px;
+  font-weight:500;
+  line-height:1.3;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.progresstarget{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bankdetials{
+  text-align: center;
+  padding:10px;
+}
+
+.banktitle,.bankname{
+  font-size: 24px;
+  font-weight:500;
+  line-height:1.3
+}
+.currentprogress{
+  display: block;
+  bottom:20px;
+  position: absolute;
+}
