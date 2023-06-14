@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Signup from "./Signup";
 
 
-function Signup() {
+function App() {
+
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -20,7 +21,7 @@ function Signup() {
           type="text"
           id="username"
           value={username}
-          onChange={(e) => setUsername(e.target.value)}
+export default App;
         />
         <br />
         <label htmlFor="password">Password:</label>
