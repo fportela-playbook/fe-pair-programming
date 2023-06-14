@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 function App() {
-  const joke = "Why did the chicken cross the road? To get to the other side!";
+  const joke = "Why did the chicken cross the playground? To get to the other slide!";
 
   return (
     <div className="App">
