@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Signup from "./Signup";
-
 
 function App() {
 
@@ -21,7 +19,7 @@ function App() {
           type="text"
           id="username"
           value={username}
-export default App;
+          onChange={(e) => setUsername(e.target.value)}
         />
         <br />
         <label htmlFor="password">Password:</label>
@@ -38,4 +36,4 @@ export default App;
   );
 }
 
-export default Signup;
+export default App;

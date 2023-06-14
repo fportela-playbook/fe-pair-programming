@@ -1,38 +1,13 @@
-import React, { useState } from "react";
+import React from 'react';
+import './App.css';
+import Signup from './Signup';
 
-function Signup() {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Username:", username, "Password:", password);
-  };
-
+function App() {
   return (
-    <div>
-      <h1>Signup</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="username">Username:</label>
-        <input
-          type="text"
-          id="username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <br />
-        <label htmlFor="password">Password:</label>
-        <input
-          type="password"
-          id="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <br />
-        <button type="submit">Signup</button>
-      </form>
+    <div className="App">
+      <Signup />
     </div>
   );
 }
 
-export default Signup;
+export default App;
