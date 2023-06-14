@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Signup from "./Signup";
-
 
 function Signup() {
   const [username, setUsername] = useState("");
